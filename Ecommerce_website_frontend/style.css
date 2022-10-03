@@ -1,13 +1,13 @@
 .nav {
     background-color: rgb(121, 224, 204);
     z-index: 9;
-    
+
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
     box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
     margin-bottom: 0px;
-    
+
 
 }
 
@@ -20,7 +20,7 @@
 
 .logo {
     float: left;
-    width: 60%;
+    width: 59%;
 }
 
 .logo img {
@@ -30,7 +30,7 @@
 
 .nav_side {
     float: right;
-    width: 40%;
+    width: 41%;
     padding-top: 45px;
     margin-right: 3px;
 
@@ -53,7 +53,7 @@
 .nav_side a:hover {
 
 
-    color:black;
+    color: black;
 
     transition: all 0.5s ease;
 
@@ -67,14 +67,14 @@
     background-attachment: fixed;
     height: auto;
     opacity: 0.85;
-    padding-top:100px;
+    padding-top: 100px;
 
 
 
 }
 
 .main .main_content {
-   
+
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -88,7 +88,7 @@
     font-size: 40px;
     font-family: cosmic, sans-serif;
     font-weight: bolder;
-   margin-bottom: 90px;
+    margin-bottom: 90px;
 
 }
 
@@ -103,7 +103,7 @@
 
 .main .main_content .btn {
     margin-top: 70px;
-   margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .main .main_content .btn a {
@@ -353,75 +353,89 @@
     font-size: 15px;
     font-family: cosmic, sans-serif;
 }
-.team{
-    padding:50px;
+
+.team {
+    padding: 50px;
 }
-.team h2{
+
+.team h2 {
     color: rgb(18, 80, 64);
     font-size: 30px;
     text-align: center;
     padding: 20px;
 
 }
-.team .team_container{
+
+.team .team_container {
     display: flex;
 }
-.team .team_container .team_video{
+
+.team .team_container .team_video {
     width: 50%;
     padding: 20px;
 }
-.team .team_container .team_video video{
-    width:100%;
+
+.team .team_container .team_video video {
+    width: 100%;
     height: auto;
-    border:1px solid black;
+    border: 1px solid black;
     outline: none;
-    
+
 }
-.team .team_container .team_content{
+
+.team .team_container .team_content {
     width: 40%;
     padding: 20px;
-    margin-left:50px;
+    margin-left: 50px;
 }
-.team .team_container .team_content p{
+
+.team .team_container .team_content p {
     padding: 10px;
     font-size: 20px;
     font-family: cosmic, sans-serif;
 }
-.feed{
+
+.feed {
     padding: 50px;
     background-image: url(images&video/feed.jpg);
     background-size: cover;
 }
-.feed h2{
+
+.feed h2 {
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
     padding: 20px;
 }
-.feed .feed_form{
+
+.feed .feed_form {
     text-align: center;
 
 }
-.feed .feed_form form{
+
+.feed .feed_form form {
     padding: 20px;
 }
-.feed .feed_form form input{
-    width:35%;
-    margin:10px;
+
+.feed .feed_form form input {
+    width: 35%;
+    margin: 10px;
     padding: 8px;
     outline: none;
     border: none;
 }
-.feed .feed_form form textarea{
-    width:35%;
-    margin:10px;
+
+.feed .feed_form form textarea {
+    width: 35%;
+    margin: 10px;
     padding: 8px;
     outline: none;
     border: none;
 }
-.feed .feed_form form button{
-    width:35%;
-    margin:10px;
+
+.feed .feed_form form button {
+    width: 35%;
+    margin: 10px;
     padding: 8px;
     outline: none;
     border: none;
@@ -429,14 +443,17 @@
     color: black;
     border-radius: 10px;
 }
-.feed .feed_form form button:hover{
+
+.feed .feed_form form button:hover {
     background-color: white;
     color: teal;
 }
-.about_us{
+
+.about_us {
     padding: 150px;
 }
-.about_us h2{
+
+.about_us h2 {
     color: rgb(24, 145, 135);
     font-size: 30px;
     text-align: center;
@@ -444,52 +461,60 @@
     font-family: cosmic, sans-serif;
 }
 
-.about_us p{
+.about_us p {
     padding: 10px;
     font-size: 15px;
     font-family: cosmic, sans-serif;
     text-align: center;
     line-height: 25px;
 }
-.contact_container{
+
+.contact_container {
     padding: 120px;
 }
-.contact_container h2{
+
+.contact_container h2 {
     color: teal;
     font-size: 30px;
     text-align: center;
     padding: 20px;
     font-family: cosmic, sans-serif;
 }
-.contact_container .g_map{
-    border:10px solid teal;
+
+.contact_container .g_map {
+    border: 10px solid teal;
 
 }
-.contact_container.contact_content{
-    padding: 20px; 
+
+.contact_container.contact_content {
+    padding: 20px;
 }
-.contact_container.contact_content p{
+
+.contact_container.contact_content p {
 
     padding: 20px;
     font-size: 20px;
     font-family: cosmic, sans-serif;
     line-height: 25px;
-   
-    
+
+
 }
-.bcontainer{
+
+.bcontainer {
     display: flex;
     width: 100%;
     background-color: white;
     height: auto;
     margin-top: 150px;
 }
-.bimg{
+
+.bimg {
     margin: 10px;
-    width:50%;
+    width: 50%;
     height: auto;
 }
-.bcontent{
+
+.bcontent {
     width: auto;
     text-align: center;
     padding: 20px;
@@ -502,196 +527,238 @@ footer {
     margin-top: 50px;
     padding: 50px;
 }
-footer .foot_log img{
+
+footer .foot_log img {
     border-radius: 50%;
 }
 
 
-footer .pages{
+footer .pages {
     text-align: center;
-}
-footer .pages h3{
-    color:black;
-    font-size: 20px;
-    font-family: cosmic, sans-serif ;
-    padding: 5px;
-}
-footer .pages a{
-    text-decoration: none;
-    margin:10px;
-    color:rgb(13, 121, 94) ;
-    font-size: 15px;
-    font-family: cosmic, sans-serif ;
-}
-footer .pages a:hover{
-    transition: all 0.5s ease;
-    color:black;
-}
-footer .docs{
-    text-align: center;
-}
-footer .docs h3{
-    color:black;
-    font-size: 20px;
-    font-family: cosmic, sans-serif ;
-    padding: 5px;
-}
-footer .docs a{
-    text-decoration: none;
-    margin:10px;
-    color:rgb(12, 126, 97) ;
-    font-size: 15px;
-    font-family: cosmic, sans-serif ;
-}
-footer .docs a:hover{
-    transition: all 0.5s ease;
-    color:black;
 }
 
-footer .social{
-    text-align: center;
-}
-footer .social h3{
-    color:black;
+footer .pages h3 {
+    color: black;
     font-size: 20px;
-    font-family: cosmic, sans-serif ;
+    font-family: cosmic, sans-serif;
     padding: 5px;
 }
-footer .social a{
-    color:teal;
-    margin: 10px;
-}
-footer .social a:hover{
-    transition: all 0.5s ease;
-    color:black;
-}
-footer .contact{
-    text-align: center;
-}
-footer .contact h3{
-    color:black;
-    font-size: 20px;
-    font-family: cosmic, sans-serif ;
-    padding: 5px;
-}
-footer .contact a{
-    color:teal;
-    margin: 10px;
-}
-footer .contact a:hover{
-    transition: all 0.5s ease;
-    color:black;
-}
-footer .payment{
-    text-align: center;
-}
-footer .payment h3{
-    color:black;
-    font-size: 20px;
-    font-family: cosmic, sans-serif ;
-    padding: 5px;
-}
-footer .payment a{
-    color:teal;
-    margin: 10px;
-}
-footer .payment a:hover{
-    transition: all 0.5s ease;
-    color:black;
-}
-@media screen and (max-width:480px){
-    .product .product_container{
-        display:grid;   
-    }
 
-    .key_points .key_container{
+footer .pages a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(13, 121, 94);
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+
+footer .pages a:hover {
+    transition: all 0.5s ease;
+    color: black;
+}
+
+footer .docs {
+    text-align: center;
+}
+
+footer .docs h3 {
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+
+footer .docs a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(12, 126, 97);
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+
+footer .docs a:hover {
+    transition: all 0.5s ease;
+    color: black;
+}
+
+footer .social {
+    text-align: center;
+}
+
+footer .social h3 {
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+
+footer .social a {
+    color: teal;
+    margin: 10px;
+}
+
+footer .social a:hover {
+    transition: all 0.5s ease;
+    color: black;
+}
+
+footer .contact {
+    text-align: center;
+}
+
+footer .contact h3 {
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+
+footer .contact a {
+    color: teal;
+    margin: 10px;
+}
+
+footer .contact a:hover {
+    transition: all 0.5s ease;
+    color: black;
+}
+
+footer .payment {
+    text-align: center;
+}
+
+footer .payment h3 {
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+
+footer .payment a {
+    color: teal;
+    margin: 10px;
+}
+
+footer .payment a:hover {
+    transition: all 0.5s ease;
+    color: black;
+}
+
+@media screen and (max-width:480px) {
+    .product .product_container {
         display: grid;
     }
-    .product .product_container .item{
+
+    .key_points .key_container {
+        display: grid;
+    }
+
+    .product .product_container .item {
         width: 100%;
         margin-left: 3px;
     }
-    .key_points .key_container .key_content{
+
+    .key_points .key_container .key_content {
         width: 100%;
     }
-    .nav_side{
-        margin-left:45px;
-        width:100%;
+
+    .nav_side {
+        margin-left: 45px;
+        width: 100%;
         margin-right: 0px;
         padding-top: 20px;
     }
+
     .nav_side a {
-        padding:18px;
+        padding: 18px;
     }
-    .logo{
+
+    .logo {
         width: 20%;
     }
-    .main .main_content .btn {
-    margin-top: 10px;
-}
-.main .main_content span{
-    margin-left: 20px;
-}
-.key_points .key_container .key_img{
-    width: 100%;
-    margin-left: 10px;
-}
-footer .foot_log img{
-  width:100%;
-  height: auto;
-}
-.testi .testi_container {
-    width: 100%;
-    height: auto;
-    margin-left: 3px;
-}
 
-.testi .testi_container .item{
-    padding: 5px;
-}
-.team .team_container{
-    display: grid;
-}
-.team .team_container .team_video{
-    width: 100%;
-}
-.team .team_container .team_content{
-    width: 100%;
-    margin-left: 0px;
-}
-.feed .feed_form form input{
-    width: 100%;
-}
-.feed .feed_form form textarea{
-    width: 100%;
-}
-.feed .feed_form form button{
-    width: 100%;
-}
-.main_cont{
-    display: grid;
-    width: 100%;
-}
-.bcontainer{
-    display: grid;
-    width: 100%;
-    margin-right:10px;
-}
-footer{
-    width: 100%;
-    margin: 0%;
-    padding: 200px;
-    
-}
-.contact_container{
-    width: 100%;
-}
-.product{
-    width: 100%;
-}
-.about_us{
-    width: 100%;
-}
+    .main .main_content .btn {
+        margin-top: 10px;
+    }
+
+    .main .main_content span {
+        margin-left: 20px;
+    }
+
+    .key_points .key_container .key_img {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    footer .foot_log img {
+        width: 100%;
+        height: auto;
+    }
+
+    .testi .testi_container {
+        width: 100%;
+        height: auto;
+        margin-left: 3px;
+    }
+
+    .testi .testi_container .item {
+        padding: 5px;
+    }
+
+    .team .team_container {
+        display: grid;
+    }
+
+    .team .team_container .team_video {
+        width: 100%;
+    }
+
+    .team .team_container .team_content {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .feed .feed_form form input {
+        width: 100%;
+    }
+
+    .feed .feed_form form textarea {
+        width: 100%;
+    }
+
+    .feed .feed_form form button {
+        width: 100%;
+    }
+
+    .main_cont {
+        display: grid;
+        width: 100%;
+    }
+
+    .bcontainer {
+        display: grid;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0%;
+        padding: 200px;
+
+    }
+
+    .contact_container {
+        width: 100%;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .about_us {
+        width: 100%;
+    }
 
 
 }
